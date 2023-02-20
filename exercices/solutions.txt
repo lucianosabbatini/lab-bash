@@ -57,4 +57,14 @@ ls -r *.txt
 17. Count the **files** which start with `lorem` in all directories.
 ls -d *lorem* | wc -l
 
+18. Store your name in a variable with read command.
+text="sabba"
 
+19. Print that variable.
+echo $text
+
+20. Create a new directory named with variable name.
+mkdir $text
+
+21. Remove that directory.
+rmdir $text
